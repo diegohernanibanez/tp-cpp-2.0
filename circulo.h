@@ -9,7 +9,6 @@ using namespace std;
 typedef struct Circulo {
     float radio;
     string color;
-    int numeroOrden;
 }circulo;
 
 void setRadioCirculo(Circulo &circulo, float dato);
@@ -21,8 +20,6 @@ void setNroCirculo(Circulo &circulo, int dato);
 float getRadioCirculo(Circulo &circulo);
 
 string getColorCirculo(Circulo &circulo);
-
-int getNroOrdenCirculo(Circulo &circulo);
 
 float areaCirculo(Circulo &circulo);
 

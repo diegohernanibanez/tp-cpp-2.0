@@ -14,7 +14,6 @@ int main(){
     Circulo circulito;
     circulito.color = "rojo";
     circulito.radio = 3;
-    circulito.numeroOrden = 0;
 
     Node *lista = NULL;
 
