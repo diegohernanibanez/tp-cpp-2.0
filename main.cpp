@@ -21,6 +21,8 @@ int main(){
     unsigned int_size = sizeof(int);
     int lala = 12;
 
+    cout << "Tu vieja" << endl;
+
     push(&lista, &circulito, circulo_size);
     push(&lista, &lala, int_size);
 
