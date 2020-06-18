@@ -11,20 +11,12 @@ void setColorCirculo(Circulo &circulo, string dato){
     circulo.color = dato;
 }
 
-void setNroCirculo(Circulo &circulo, int dato){
-    circulo.numeroOrden = dato;
-}
-
 float getRadioCirculo(Circulo &circulo){
     return circulo.radio;
 }
 
 string getColorCirculo(Circulo &circulo){
     return circulo.color;
-}
-
-int getNroOrdenCirculo(Circulo &circulo){
-    return circulo.numeroOrden;
 }
 
 float areaCirculo(Circulo &circulo){

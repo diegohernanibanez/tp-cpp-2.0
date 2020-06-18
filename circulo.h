@@ -15,8 +15,6 @@ void setRadioCirculo(Circulo &circulo, float dato);
 
 void setColorCirculo(Circulo &circulo, string dato);
 
-void setNroCirculo(Circulo &circulo, int dato);
-
 float getRadioCirculo(Circulo &circulo);
 
 string getColorCirculo(Circulo &circulo);
